@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.secureshare.MainActivity" >
+    
+  
+                 
+     <TextView android:text="@string/Full"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:id="@+id/textView1"
+       android:layout_height="wrap_content" 
+       android:layout_width="126dp"></TextView>
+      
+    <EditText android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name" />
+    
+    
+    <TextView android:text="@string/Aadhar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content" 
+        android:layout_width="126dp"></TextView>
+    
+    <EditText android:id="@+id/aadhar_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/aadhar_num" />
+    
+     <Button android:id="@+id/button_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_verify"
+        android:onClick="Verify" />
+    
+</LinearLayout>
+    
