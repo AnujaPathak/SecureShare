@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class MainActivity extends ActionBarActivity {
 	
 	public final static String EXTRA_Name = "com.example.secureshare.Name";

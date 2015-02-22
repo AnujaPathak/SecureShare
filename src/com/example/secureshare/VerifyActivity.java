@@ -5,10 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 //import android.widget.Button;
 //import android.support.v4.app.Fragment;
 //import android.view.LayoutInflater;
@@ -25,7 +21,7 @@ public class VerifyActivity extends ActionBarActivity {
 		Intent intent=getIntent();
 		String fname=intent.getStringExtra(MainActivity.EXTRA_Name);
 		
-		String aadhar=intent.getStringExtra(MainActivity.EXTRA_Aadhar);
+		//String aadhar=intent.getStringExtra(MainActivity.EXTRA_Aadhar);
 		
 		setContentView(R.layout.activity_verify);
 		
