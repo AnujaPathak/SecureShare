@@ -86,9 +86,10 @@ public class VerifyActivity extends ActionBarActivity {
 		return super.onOptionsItemSelected(item);
 	}
    
-	 public void Opencamera(View view)
+	 
+	 public void FirstView(View view)
 	 {
-		 Intent intent=new Intent(this,OpenCamera.class);
+		 Intent intent=new Intent(this,FirstViewActivity.class);
 		 startActivity(intent);
 		 
 	 }

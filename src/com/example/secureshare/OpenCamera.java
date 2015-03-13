@@ -36,6 +36,12 @@ public class OpenCamera extends ActionBarActivity {
 	      startActivityForResult(intent, 0);
 	   }
 	
+	 public void GoogleVerify(View view){
+		 
+		 Intent intent = new Intent(this, RegisterActivity.class);
+		  startActivity(intent);
+	 }
+	
 	@Override
 	   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 	      // TODO Auto-generated method stub

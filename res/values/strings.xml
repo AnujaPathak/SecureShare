@@ -22,4 +22,14 @@
     <string name="title_activity_open_camera">OpenCamera</string>
     <string name="button_Camera">Camera</string>
     <string name="button_Upload">Upload</string>
+    <string name="title_activity_first_view">FirstViewActivity</string>
+    <string name="tabtextview">TextView</string>
+    <string name="home">Home</string>
+    <string name="device_name">Device</string>
+    <string name="manuf_name">Manufacturer</string>    
+    <string name="received">Received</string>
+    <string name="sent">Sent</string>
+    <string name="capture_image">Capture Image</string>
+    
+
 </resources>

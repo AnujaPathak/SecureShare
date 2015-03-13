@@ -29,7 +29,8 @@
         <Button android:id="@+id/button_Upload"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_Upload">
+        android:text="@string/button_Upload"
+        android:onClick="GoogleVerify">
                        
          </Button>
         

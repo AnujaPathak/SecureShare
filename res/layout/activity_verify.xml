@@ -14,20 +14,12 @@
        android:layout_height="wrap_content" 
        android:layout_width="wrap_content"></TextView>
       
-       <TextView android:text="@string/Uname"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_height="wrap_content" 
-        android:layout_width="126dp"></TextView>
-       
+     
         <EditText android:id="@+id/User_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/User_name" />
     
-        <TextView android:text="@string/Password"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_height="wrap_content" 
-        android:layout_width="126dp"></TextView>
         
         <EditText android:id="@+id/Pass_word"
         android:inputType="textPassword"      
@@ -35,11 +27,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/Pass_word" />
           
-          
-        <TextView android:text="@string/Re_Password"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_height="wrap_content" 
-        android:layout_width="126dp"></TextView>
           
         <EditText android:id="@+id/RePassword"
         android:inputType="textPassword"       
@@ -51,9 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_Create"
-        android:onClick="Opencamera">
-       
-               
+        android:onClick="FirstView">
+             
          </Button> 
         
         
